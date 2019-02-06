@@ -23,6 +23,13 @@
 	padding-bottom: 5px;
 }
 
+#contentlist
+{
+  position: relative;
+  text-align: center;
+  margin:0 auto;
+}
+
 .box
 {
 	border: 1px solid #a8aff6;
@@ -30,10 +37,21 @@
 	padding: 10px;
 }
 
-#contentlist
+.button {
+  background-color: #b4bbff;
+  border: 2px solid #5100cb;
+  color: #5100cb;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  margin: 2px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.button:hover
 {
-	text-align: center;
-	font-size: 120%;
+	background-color: #bfc4fc;
 }
 
 table, th, td
@@ -56,9 +74,4 @@ tr:nth-child(odd)
 th
 {
 	background-color: #b4bbff;
-}
-
-ul
-{
-	list-style-type:none;
 }
